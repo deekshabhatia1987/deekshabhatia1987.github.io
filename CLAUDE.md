@@ -24,7 +24,7 @@ This is a static portfolio website designed for GitHub Pages hosting. The site f
 - `blog/` directory - Individual blog post HTML files
 - `blog-images/` directory - Featured images for blog posts
 
-**Design Philosophy**: The site uses minimal JavaScript (only for image protection) and avoids build tools to maintain simplicity and ease of updates. The design uses system fonts and a nature-inspired green color palette for a professional, calming appearance. Green tones are used throughout to evoke environmental and natural themes.
+**Design Philosophy**: The site uses minimal JavaScript (only for image protection) and avoids build tools to maintain simplicity and ease of updates. The design uses system fonts and a balanced earthy-green color palette for a professional, natural appearance. Sage greens and olive tones with neutral backgrounds create a sophisticated, grounded aesthetic.
 
 **Image Protection**: The profile image has multiple layers of protection to discourage casual copying:
 - CSS-based: `user-select: none`, `pointer-events: none`, `-webkit-user-drag: none`
@@ -49,9 +49,9 @@ This is a static portfolio website designed for GitHub Pages hosting. The site f
 - Use the `.container` class for max-width content areas (900px)
 - Main sections use `.content-section` with 4rem vertical padding
 - Maintain consistent spacing: 2.5rem between items, 1.5rem for subsections
-- Green color palette: `#34a853` (primary green), `#2d8b47` (hover), `#1e7e34` (dark green)
-- Social media links use branded colors (Instagram gradient, LinkedIn blue, Twitter blue)
-- Profile image has green border and subtle shadow
+- Sage green palette: `#6b7c5d` (primary sage), `#4a5d3f` (dark olive), `#8a9b7a` (light sage), `#c4d1b8` (pale sage)
+- Social media links use sage green with some keeping branded colors (Instagram gradient, LinkedIn blue, Twitter blue)
+- Profile image has sage green border and subtle shadow
 
 **Responsive Behavior**: The site has two breakpoints:
 - 768px: Profile section stacks vertically, navigation becomes compact
@@ -67,11 +67,12 @@ This is a static portfolio website designed for GitHub Pages hosting. The site f
 
 **Adding a news item**: In `news.html`, add a new `.news-item` div at the top (reverse chronological order) with date, title, and description.
 
-**Changing colors**: The site uses a nature-inspired green palette defined in `style.css`:
-- Primary green: `#34a853`, `#2d8b47` (hover), `#1e7e34` (dark)
-- Text: `#2d3748` (dark), `#4a5568` (medium), `#5a6c57` (light)
-- Backgrounds: Soft green gradients (`#f0f9f4`, `#e6f4ea`, `#f5fdf7`)
-- Borders: `#a8d5ba` (light green), `#34a853` (accent)
+**Changing colors**: The site uses a sage green and earthy palette defined in `style.css`:
+- Primary sage green: `#6b7c5d`, `#5a6b4d` (hover), `#4a5d3f` (dark olive)
+- Light sage accents: `#8a9b7a`, `#c4d1b8` (pale sage)
+- Text: `#2d3748` (dark), `#4a5568` (medium), `#6b7461` (sage-tinted gray)
+- Backgrounds: Soft greenish-neutral gradients (`#f4f6f3`, `#e9ebe6`, `#f7f9f6`)
+- Borders: `#c4d1b8` (light sage), `#6b7c5d` (accent)
 
 **Updating social media links**: Social links are in `index.html` within the `.social-links` div. Each link has a branded class (`.instagram`, `.linkedin`, `.twitter`) with custom colors in CSS.
 
